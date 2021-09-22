@@ -16,10 +16,10 @@ class CreateCommentsTable extends Migration
         Schema::create('comments', function (Blueprint $table) {
             $table->id();
             $table->string('text');
-            $table->string('sequence');
+            $table->string('sequence')->nullable();
             $table->string('commented_by')->nullable();
             $table->integer('parent_id')->nullable();
-            $table->integer('level')->nullable();
+            $table->integer('level')->default(0);
             $table->timestamps();
         });
     }
