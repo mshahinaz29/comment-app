@@ -21,8 +21,8 @@ window.Vue = require('vue').default;
 
 // Vue.component('example-component', require('./components/ExampleComponent.vue').default);
 Vue.component('post-component', require('./components/PostComponent.vue').default);
-Vue.component('comments', require('./components/Comments.vue').default);
-Vue.component('app', require('./components/App.vue').default);
+// Vue.component('comments', require('./components/Comments.vue').default);
+// Vue.component('app', require('./components/App.vue').default);
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to

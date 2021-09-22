@@ -23,7 +23,6 @@
                                 v-for="comment in comment_list"
                                 :comment="comment"
                                 :key="comment.id"
-                                @clicked-show-detail="reply"
                             >                            
                             </single-comment>
                         </div>
